@@ -1,0 +1,39 @@
+.App {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #fefefe;
+}
+.calculate_Text_Block {
+    font-size: 18px;
+    .calculate_Text_Name {
+        font-weight: 600;
+        color: gray;
+    }
+    .calculate_Text_Meaning {
+        margin-top: 5px;
+        font-weight: 800;
+        text-align: center;
+    }
+}
+
+.info_text_block {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    .info_text_name {
+        color: gray;
+    }
+    .info_text_meaning {
+        margin-left: 5px;
+    }
+}
